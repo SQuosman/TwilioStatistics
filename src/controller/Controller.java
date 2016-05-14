@@ -1,5 +1,6 @@
 package controller;
 
+import javafx.scene.control.Button;
 import javafx.stage.Stage;
 import model.TwilioStatConnector;
 import view.Gui;
@@ -9,6 +10,7 @@ public class Controller {
 	private TwilioStatConnector model;
 	private Gui gui;
 	private Stage primaryStage;
+	private Button connectButton;
 
 	public Controller(TwilioStatConnector model) {
 		this.model = model;

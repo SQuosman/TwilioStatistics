@@ -45,7 +45,20 @@ public class Gui extends Application {
 		primaryStage.setScene(scene);
 		primaryStage.show();
 	}
+
 	
+	public Button getExportButton() {
+		return exportButton;
+	}
+
+	public Button getSmsButton() {
+		return smsButton;
+	}
+
+	public Button getCallButton() {
+		return callButton;
+	}
+
 	public Button getConnectButton(){
 		return connectButton;
 	}
