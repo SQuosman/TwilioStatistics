@@ -19,6 +19,7 @@ public class Launcher extends Application{
 		TwilioStatConnector model = new TwilioStatConnector();
 		Controller controller = new Controller(model);
 		controller.setupGui();
+		
 	}
 	
 
